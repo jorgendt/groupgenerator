@@ -1,0 +1,10 @@
+.groups-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  grid-column: 1 / span 2;
+  justify-content: center;
+}
+
+.container h2 {
+  color: #0a2b49;
+}

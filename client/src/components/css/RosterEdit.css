@@ -1,0 +1,25 @@
+.student-element-edit .icon-button {
+  background: none;
+  border: none;
+  color: #0a2b49;
+  cursor: pointer;
+  float: right;
+  font-size: 1em;
+  margin: 0 0.2em;
+  padding: 0;
+}
+
+.student-element-edit .icon-button:hover, .student-element-edit .icon-button:active {
+  color: #ec9f30;
+}
+
+.student-container-edit {
+  column-count: 3;
+  column-rule: 2px solid #0a2b49;
+}
+
+.student-element-edit {
+  clear: both;
+  margin-left: 2em;
+  margin-right: 2em;
+}

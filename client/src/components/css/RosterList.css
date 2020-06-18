@@ -1,0 +1,36 @@
+.roster-element {
+  padding: 0.5em 0;
+}
+
+.roster-element a {
+  text-decoration: none;
+}
+
+.roster-element .icon-button {
+  background: none;
+  border: none;
+  color: #0a2b49;
+  cursor: pointer;
+  float: right;
+  font-size: 1em;
+  margin: 0 0.2em;
+  padding: 0;
+}
+
+.roster-element .icon-button:hover, .roster-element .icon-button:active {
+  color: #ec9f30;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}

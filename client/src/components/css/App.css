@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0a2b49;
+}
+
+a:hover, a:active {
+  color: #ec9f30;
+}
+
+input, button, select {
+  border: 1px solid #0a2b49;
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  margin: 1em 0;
+  padding: 0.25em 0.5em;
+}

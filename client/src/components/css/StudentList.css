@@ -1,0 +1,8 @@
+.student-container {
+  column-count: 3;
+  vertical-align: top;
+}
+
+.student-container p {
+  column-span: all;
+}

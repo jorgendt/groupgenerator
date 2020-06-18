@@ -1,0 +1,13 @@
+.gg-wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 3px solid rgba(47, 148, 165, 0.67);
+  border-radius: 1.5em;
+  margin: 1em;
+  padding: 1em 2em;
+}

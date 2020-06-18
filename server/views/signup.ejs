@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Gruppegenerator - lag ny bruker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Lag ny bruker</h1>
+
+    <p style="display: <%= display %>" class="warning"><%= message %></p>
+
+    <form action="./signup" method="post">
+      <p>
+        <label for="username">Brukernavn:</label><br><input type="text" name="username">
+      </p>
+      <p>
+        <label for="password">Passord:</label><br><input type="password" name="password">
+      </p>
+      <p>
+        <label for="repeatPassword">Gjenta passord:</label><br><input type="password" name="repeatPassword">
+      </p>
+      <p>
+        <button type="submit">Lag ny bruker</button>
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.header-wrapper {
+  background-color: #2f94a5;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+}
+
+.login-info {
+  line-height: 1.5;
+  position: absolute;
+  right: 1em;
+  top: 40%;
+}
+
+h1 {
+  float: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 3em;
+  font-weight: 500;
+  margin: 1em;
+}
